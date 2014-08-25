@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://example.com/tns" elementFormDefault="qualified" >
+
+        <complexType name="Parent1">
+                <sequence>
+                        <element name="Child" type="string" form="qualified" />
+                </sequence>
+        </complexType>
+
+        <complexType name="Parent2">
+                <sequence>
+                        <element name="Child" type="string" form="unqualified" />
+                </sequence>
+        </complexType>
+
+</schema>
+
